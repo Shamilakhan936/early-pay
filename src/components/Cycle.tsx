@@ -10,6 +10,7 @@ import utilitiesIcon from '../assets/icons/utilitiesIcon.svg';
 import insuranceIcon from '../assets/icons/insuranceIcon.svg';
 import rentIcon from '../assets/icons/rentIcon.svg';
 import internetIcon from '../assets/icons/internetIcon.svg';
+import infoIcon from '../assets/icons/information.svg';
 interface BillItem {
   id: string;
   name: string;
@@ -150,12 +151,12 @@ const Community: React.FC = () => {
                             <span className="text-[#6061F7] text-base">Incl.5% fee</span>
                            
                           </div>
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-center gap-1">
 
                           <p className="text-black text-base">Tue 31, Sep</p>
-                          <div className="w-4 h-4 bg-gray-300 rounded-full flex items-center justify-center ">
-                              <span className="text-gray-600 text-xs font-bold">i</span>
-                            </div>
+                         <div>
+                          <img src={infoIcon} alt="info icon" className="w-4 h-4" />
+                         </div>
                           </div>
                         </div>
                       </div>
