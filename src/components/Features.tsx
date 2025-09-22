@@ -7,9 +7,9 @@ import planIcon from '../assets/icons/planIcon.svg';
 const Features: React.FC = () => {
   const [selectedFrequency, setSelectedFrequency] = useState('fortnightly');
   return (
-    <section className="py-20 bg-white">
+    <section className="md:py-20 bg-white">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-[200px] items-center">
+        <div className="grid lg:grid-cols-2 md:gap-[200px] gap-[40px] items-center">
           <div className="relative">
             <div className="relative">
               <img 
@@ -18,32 +18,32 @@ const Features: React.FC = () => {
                 className="w-full max-w-md rounded-2xl"
               />
               
-              <div className="absolute top-[20.5rem] right-[3rem] transform -translate-x-1/2 z-20">
+              <div className="absolute md:top-[20.5rem] top-[14rem] md:right-[3rem] -right-[4rem] transform -translate-x-1/2 z-20">
                 <img 
                   src={arrowManImage} 
                   alt="Arrow indicator" 
                   className="w-[150px] h-[150px]"
                 />
               </div>
-              <div className="absolute top-[6.5rem] w-[190px] left-[15.5rem] bg-white rounded-xl p-4 shadow-lg max-w-xs">
+              <div className="absolute md:top-[6.5rem] top-[2rem]  md:w-[190px] w-[150px] md:left-[15.5rem] left-[11rem] bg-white rounded-xl p-4 shadow-lg max-w-xs">
                 <div className="flex items-center space-x-3 mb-3">
                   
                   <div>
-                    <p className="text-[16px] font-normal text-[#B3B3B3]">Earned Wage</p>
-                    <p className="text-[18px] font-bold text-black">$2500</p>
+                    <p className="md:text-[16px] text-[12px] font-normal text-[#B3B3B3]">Earned Wage</p>
+                    <p className="md:text-[18px] text-[14px] font-bold text-black">$2500</p>
                   </div>
                 </div>
-                <div className="flex items-center mt-[-10px] text-[#2AB22A] font-medium text-[16px]">
+                <div className="flex items-center mt-[-10px] text-[#2AB22A] font-medium md:text-[16px] text-[12px]">
                   <span className="mr-2">✓</span>
                   <span>Approved</span>
                 </div>
-                <div className="mt-2 text-[16px] text-[#B3B3B3]">
+                <div className="mt-2 md:text-[16px] text-[12px] text-[#B3B3B3]">
                   <p>Settlement date</p>
-                  <p className="font-medium text-black text-[14px]">12 Aug 2025</p>
+                  <p className="font-medium text-black md:text-[14px] text-[12px]">12 Aug 2025</p>
                 </div>
-                <div className="mt-2 text-[16px] text-[#B3B3B3]">
+                <div className="mt-2 md:text-[16px] text-[12px] text-[#B3B3B3]">
                   <p>Fixed fee</p>
-                  <p className="font-medium text-black text-[14px]">$10.00</p>
+                  <p className="font-medium text-black md:text-[14px] text-[12px]">$10.00</p>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Features: React.FC = () => {
               <img 
                 src={phoneImage} 
                 alt="Phone mockup" 
-                className="w-80 h-auto"
+                className="md:w-80 h-auto"
               />
               
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">

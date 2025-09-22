@@ -32,7 +32,7 @@ const HowItWorks: React.FC = () => {
   return (
     <section className=" ">
       <div className="max-w-[1268px] mt-[60px] mx-auto ">
-        <div className="text-center mb-20">
+        <div className="text-center md:mb-20 mb-10">
           <h2 className="text-[40px] font-normal text-black mb-0">
             How it Works
           </h2>
@@ -41,10 +41,10 @@ const HowItWorks: React.FC = () => {
           </p>
         </div>
 
-        <div className="relative  mx-auto pt-[60px] pb-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="relative  mx-auto md:pt-[60px] md:pb-12 bg-white">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-4 max-sm:mx-4">
             <div className="relative">
-              <div className="rounded-[12px] shadow-lg h-80 overflow-hidden bg-[#F7F6FD]" >
+              <div className="md:rounded-[12px] shadow-lg h-80 overflow-hidden bg-[#F7F6FD]" >
                 <div className="p-8 pb-6 text-center">
                   <div className="bg-primary-600 text-white w-14 h-14 mb-4 mt-4 rounded-2xl flex items-center justify-center text-2xl mx-auto">
                     <img src={steps[0].icon} alt={steps[0].title} className="w-6 h-6" />
@@ -65,7 +65,7 @@ const HowItWorks: React.FC = () => {
             </div>
 
             <div className="relative transform -translate-y-12">
-              <div className="rounded-[12px] shadow-lg h-80 overflow-hidden bg-[#F7F6FD]">
+              <div className="md:rounded-[12px] shadow-lg h-80 overflow-hidden bg-[#F7F6FD]">
                 {/* Icon Section */}
                 <div className="p-8 pb-6 text-center">
                   <div className="bg-primary-600 text-white w-14 h-14 mb-4 mt-4 rounded-2xl flex items-center justify-center text-2xl mx-auto">
@@ -87,7 +87,7 @@ const HowItWorks: React.FC = () => {
             </div>
 
             <div className="relative transform -translate-y-24">
-              <div className="rounded-[12px] shadow-lg h-80 overflow-hidden bg-[#F7F6FD]">
+              <div className="md:rounded-[12px] shadow-lg h-80 overflow-hidden bg-[#F7F6FD]">
                 <div className="p-6 pb-6 text-center">
                   <div className="bg-primary-600 text-white w-14 h-14 mb-4 mt-4 rounded-2xl flex items-center justify-center text-2xl mx-auto">
                     <img src={steps[2].icon} alt={steps[2].title} className="w-6 h-6" />
@@ -110,7 +110,7 @@ const HowItWorks: React.FC = () => {
         </div>
         
         <div className="flex justify-end mt-8">
-          <img src={howWorksIcon} alt="How it works" className="w-[66%] h-[100%] mt-[-120px]" />
+          <img src={howWorksIcon} alt="How it works" className="w-[66%] h-[100%] md:mt-[-120px] mt-[-80px]" />
         </div>
       </div>
     </section>

@@ -3,15 +3,15 @@ import mapsImage from '../assets/icons/maps.png';
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-[#6061F7] mt-[20px] max-w-[1268px] mx-auto rounded-[24px]  text-white">
+    <section className="bg-[#6061F7] mt-[20px] max-w-[1268px] mx-auto rounded-[24px]  max-sm:mx-4  text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="text-center">
-          <h1 className="text-[64px] font-normal mb-[40px] leading-[80px] mt-[146px] max-w-[830px] mx-auto">
+          <h1 className="md:text-[64px] text-[24px] font-normal mb-[20px] md:leading-[80px] md:mt-[146px] mt-[20px] max-w-[830px] mx-auto">
             Access Your Pay Before
             Payday with EarlyPay
           </h1>
           
-          <p className="text-[14px] mb-12 leading-[24px] text-normal max-w-[448px] mx-auto">
+          <p className="text-[14px] md:mb-12 mb-4 leading-[24px] text-normal max-w-[448px] mx-auto">
           Get up to $2000 of your earned wages instantly. No hidden fees, no interest.
           </p>
 
@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             Get Started
           </button>
 
-          <div className="mt-[84px] mb-[50px] ml-[90px] mx-auto">
+          <div className="md:mt-[84px] mt-[24px] md:mb-[50px] mb-[20px] md:ml-[90px] mx-auto">
             <img 
               src={mapsImage} 
               alt="Maps" 

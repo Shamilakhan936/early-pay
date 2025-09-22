@@ -52,15 +52,15 @@ const Community: React.FC = () => {
   };
 
   return (
-    <section className="py-20 bg-[#F9F9F9] max-w-[1268px] mx-auto rounded-[20px] ">
+    <section className="md:py-20 py-10 bg-[#F9F9F9]  mx-auto rounded-[20px] ">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-[200px] items-center">
+        <div className="grid lg:grid-cols-2 md:gap-[200px] gap-[20px] items-center">
           <div>
-            <h2 className="text-[42px]  font-medium text-black max-w-[705px !important] leading-[57px] mb-[45px]">
+            <h2 className="md:text-[42px] text-[24px]  font-medium text-black max-w-[705px !important] md:leading-[57px] mb-[45px]">
               Break free from payday cycles.Tap into your earned wages anytime.
             </h2>
             
-            <div className="space-y-6 mb-8">
+            <div className="space-y-6 md:mb-8">
               <div className="flex items-start space-x-4">
                 <div className=" flex items-center justify-center flex-shrink-0 mt-1">
                   <img src={instantIcon} alt="Instant access icon" className="w-[30px] h-[30px]" />
@@ -92,7 +92,7 @@ const Community: React.FC = () => {
               </div>
             </div>
             
-            <button className="bg-[#6061F7] text-white px-8 py-3 rounded-[20px] mt-[45px] font-bold text-[20px] transition-colors">
+            <button className="bg-[#6061F7] text-white px-8 py-3 rounded-[20px] md:mt-[45px] mt-[20px] font-bold text-[20px] transition-colors">
               Get Started
             </button>
           </div>
@@ -102,72 +102,69 @@ const Community: React.FC = () => {
               <img 
                 src={phoneImage} 
                 alt="Phone mockup" 
-                className="w-80 h-auto"
+                className="md:w-80 h-auto"
               />
               
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
-                <div className="flex items-center justify-between w-full max-w-[200px] mb-8">
+                <div className="flex items-center justify-between w-full max-w-[200px]  md:mb-8 mb-4">
                   <img src={backIcon} alt="Back icon" className="w-5 h-5 text-gray-600" />
                   <h3 className="text-[16px] font-semibold text-black">Bills To Pay</h3>
                   <div></div>
                 </div>
 
-                <div className="bg-white rounded-[12px] w-[93%] mt-[105px] p-2 shadow-lg w-full max-w-[300px] border border-black">
-                  <div className="space-y-3">
-                    {bills.map((bill) => (
-                      <div key={bill.id} className="flex items-center justify-between">
-                        <div className="flex items-center space-x-3">
-                          {/* Toggle Slider */}
-                          <div 
-                            className={`w-10 h-6 rounded-full cursor-pointer transition-colors duration-200 flex items-center ${
-                              bill.isActive ? 'bg-[#6165FF]' : 'bg-gray-300'
-                            }`}
-                            onClick={() => toggleBill(bill.id)}
-                          >
-                            <div 
-                              className={`w-4 h-4 bg-white rounded-full transition-transform duration-200 ${
-                                bill.isActive ? 'translate-x-5' : 'translate-x-1'
-                              }`}
-                            />
-                          </div>
-                          
-                          <span className="font-normal text-black text-[12px]">
-                            {bill.icon.endsWith('.svg') ? (
-                              <img src={bill.icon} alt={`${bill.name} icon`} className="w-5 h-5 mr-[5px] inline-block" />
-                            ) : (
-                              <span className="text-sm">{bill.icon}</span>
-                            )}
-                            {' '}{bill.name}
-                          </span>
+                <div className="bg-white rounded-[24px] w-[93%] md:mt-[90px] mt-[120px] py-7 px-6 shadow-lg max-w-[300px]">
+                  <div className="flex items-center justify-between mb-5">
+                    <div className="w-8 h-8 bg-[#6061F7] rounded-full flex items-center justify-center mr-3">
+                      <span className="text-white  text-lg">$</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-black font-bold text-base">Cashed out</p>
+                      <p className="text-black font-medium text-lg">$2000</p>
+                    </div>
+                  </div>
+
+                  <div className="mb-4">
+                    <h3 className="text-black font-medium text-lg mb-4">Your Repayments</h3>
+                    
+                    <div className="relative">
+                      
+                      <div className="relative flex items-start gap-3  mb-5">
+                        <div className="w-4 h-4 bg-[#6061F7] rounded-full mt-1 flex items-center justify-center z-10 relative">
                         </div>
-                        
-                        <div className="flex items-center space-x-2">
-                          <button 
-                            className={` flex items-center justify-center text-[10px] font-bold ${
-                              bill.isActive ? 'text-black ' : ''
-                            }`}
-                            onClick={() => adjustAmount(bill.id, false)}
-                            disabled={!bill.isActive}
-                          >
-                            -
-                          </button>
-                          
-                          <span className={`font-bold text-[10px] ${bill.isActive ? 'text-black' : 'text-gray-400'}`}>
-                            ${bill.amount}
-                          </span>
-                          
-                          <button 
-                            className={` flex items-center justify-center text-[10px] font-bold ${
-                              bill.isActive ? 'text-black ' : ''
-                            }`}
-                            onClick={() => adjustAmount(bill.id, true)}
-                            disabled={!bill.isActive}
-                          >
-                            +
-                          </button>
+                        <div className=" flex-1">
+                          <div className="flex items-center justify-between mb-1">
+                            <span className="text-black font-bold text-base">$1050</span>
+                            <span className="text-[#6061F7] text-base">Incl.5% fee</span>
+                          </div>
+                          <p className="text-black text-base">In 4 days - Mon 23, Sep</p>
                         </div>
                       </div>
-                    ))}
+                      
+                      <div className="relative flex items-start gap-3">
+                        <div className="w-4 h-4 bg-[#6061F7] rounded-full mt-1 flex items-center justify-center z-10 relative">
+                         
+                        </div>
+                        <div className=" flex-1">
+                          <div className="flex items-center justify-between mb-1">
+                            <span className="text-black font-bold text-sm">$1050</span>
+                            <span className="text-[#6061F7] text-base">Incl.5% fee</span>
+                           
+                          </div>
+                          <div className="flex items-center gap-2">
+
+                          <p className="text-black text-base">Tue 31, Sep</p>
+                          <div className="w-4 h-4 bg-gray-300 rounded-full flex items-center justify-center ">
+                              <span className="text-gray-600 text-xs font-bold">i</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-between items-center pt-4 bg-[#FAFAFA] rounded-[16px] p-4">
+                    <span className="text-black font-medium">Total</span>
+                    <span className="text-black font-bold text-lg">$2100</span>
                   </div>
                 </div>
               </div>
