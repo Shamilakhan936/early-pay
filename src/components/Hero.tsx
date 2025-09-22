@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           Get up to $2000 of your earned wages instantly. No hidden fees, no interest.
           </p>
 
-          <button className=" border-white border-[1px] text-white font-normal py-4 px-24 rounded-full text-[20px]  shadow-lg">
+          <button className=" border-white border-[1px] text-white hover:bg-white hover:text-[#6061F7] font-normal py-4 px-24 rounded-full text-[20px]  shadow-lg">
             Get Started
           </button>
 
