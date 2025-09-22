@@ -3,7 +3,7 @@ import mapsImage from '../assets/icons/maps.png';
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-[#6061F7] mt-[105px] max-w-[1268px] mx-auto rounded-[24px]  text-white">
+    <section className="bg-[#6061F7] mt-[20px] max-w-[1268px] mx-auto rounded-[24px]  text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="text-center">
           <h1 className="text-[64px] font-normal mb-[40px] leading-[80px] mt-[146px] max-w-[830px] mx-auto">
@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           Get up to $2000 of your earned wages instantly. No hidden fees, no interest.
           </p>
 
-          <button className="border border-white border-[1px] text-white font-normal py-4 px-24 rounded-full text-[20px]  shadow-lg">
+          <button className=" border-white border-[1px] text-white font-normal py-4 px-24 rounded-full text-[20px]  shadow-lg">
             Get Started
           </button>
 

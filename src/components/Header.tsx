@@ -10,7 +10,7 @@ const Header: React.FC = () => {
             <img 
               src={logo} 
               alt="EarlyPay Logo" 
-              className="h-[68px] w-auto ml-[20px]"
+              className="h-[48px] w-auto ml-[20px]"
             />
           </div>
 
