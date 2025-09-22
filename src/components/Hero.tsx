@@ -3,7 +3,7 @@ import mapsImage from '../assets/icons/maps.png';
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-[#6061F7] mt-[20px] max-w-[1268px] mx-auto rounded-[24px]  max-sm:mx-4  text-white">
+    <section className="bg-[#6061F7] mt-[20px] max-w-[1268px] mx-auto rounded-[24px] max-sm:mx-4 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="text-center">
           <h1 className="md:text-[64px] text-[24px] font-normal mb-[20px] md:leading-[80px] md:mt-[146px] mt-[20px] max-w-[830px] mx-auto">

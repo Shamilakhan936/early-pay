@@ -106,13 +106,13 @@ const Community: React.FC = () => {
               />
               
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
-                <div className="flex items-center justify-between w-full max-w-[200px]  md:mb-8 mb-4">
+                <div className="flex items-center justify-between w-full max-w-[200px] mb-[70px]">
                   <img src={backIcon} alt="Back icon" className="w-5 h-5 text-gray-600" />
                   <h3 className="text-[16px] font-semibold text-black">Bills To Pay</h3>
                   <div></div>
                 </div>
 
-                <div className="bg-white rounded-[24px] w-[93%] md:mt-[90px] mt-[120px] py-7 px-6 shadow-lg max-w-[300px]">
+                <div className="bg-white rounded-[24px] w-[93%] py-7 px-6 shadow-lg max-w-[300px]">
                   <div className="flex items-center justify-between mb-5">
                     <div className="w-8 h-8 bg-[#6061F7] rounded-full flex items-center justify-center mr-3">
                       <span className="text-white  text-lg">$</span>
