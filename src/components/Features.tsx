@@ -67,7 +67,7 @@ const Features: React.FC = () => {
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
                 <div className="text-center mb-14 md:mb-[105px]">
                   <h3 className="text-[16px] font-bold text-black">
-                  Pay Cycle
+                  Pay Cycle Date
                   </h3>
                 </div>
 
