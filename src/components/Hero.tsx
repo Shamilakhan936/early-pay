@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-[14px] md:mb-12 mb-4 leading-[24px] text-normal max-w-[448px] mx-auto">
-          Get up to $2000 of your earned wages instantly. No hidden fees, no interest.
+          Get up to $5000 of your earned wages instantly. No hidden fees, no interest.
           </p>
 
           <button className=" border-white border-[1px] text-white hover:bg-white hover:text-[#6061F7] font-normal py-4 px-24 rounded-full text-[20px]  shadow-lg">
