@@ -74,18 +74,18 @@ const Community: React.FC = () => {
 
                 <div className="bg-white rounded-[24px] w-[94%] py-4 px-6 shadow-lg max-w-[300px] mx-auto">
                   <div className="flex items-center justify-between mb-5">
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center">
                         <div className='w-6 h-6 bg-[#6061F7] rounded-full flex items-center justify-center z-10 relative'>
                           <span className="text-white text-sm">$</span>
                         </div>
-                        <p className="text-black font-bold text-[15px]">Cashed Out:</p>
-                        <img src={doubleLineIcon} alt="Dollar" className="w-5 h-6" />
+                        <p className="text-black font-bold text-[17px] ml-2">Cashed Out:</p>
+                        <img src={doubleLineIcon} alt="Dollar" className="w-5 h-6 ml-2" />
                         <p className="text-black font-medium text-[14px]">2000</p>
                       </div>
                   </div>
 
                   <div className="mb-4">
-                    <h3 className="text-black font-medium text-lg mb-4">Repayment Schedule:</h3>
+                    <h3 className="text-black font-medium text-[16px] mb-4">Repayment Schedule:</h3>
                     
                     <div className="relative">
                       
@@ -98,9 +98,9 @@ const Community: React.FC = () => {
                               <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
                               <span className="text-black font-bold text-base mt-1">1050</span>
                             </div>
-                            <span className="text-[#6061F7] text-[14px]">(Incl.5% fee)</span>
+                            <span className="text-[#6061F7] text-[16px]">(Incl.5% fee)</span>
                           </div>
-                          <p className="text-black text-[14px] ml-2"> Mon 23, Sep</p>
+                          <p className="text-black text-[16px] ml-2"> Mon 23, Sep</p>
                         </div>
                       </div>
                       
@@ -114,12 +114,12 @@ const Community: React.FC = () => {
                               <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
                               <span className="text-black font-bold text-sm mt-1">1050</span>
                             </div>
-                            <span className="text-[#6061F7] text-[14px]">(Incl.5% fee)</span>
+                            <span className="text-[#6061F7] text-[16px]">(Incl.5% fee)</span>
                            
                           </div>
                           <div className="flex items-center gap-1">
 
-                          <p className="text-black text-[14px] ml-2">Tue 31, Sep</p>
+                          <p className="text-black text-[16px] ml-2">Tue 31, Sep</p>
                          {/* <div>
                           <img src={infoIcon} alt="info icon" className="w-4 h-4" />
                          </div> */}
