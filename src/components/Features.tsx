@@ -8,7 +8,7 @@ import doubleLineIcon from '../assets/icons/double-line.svg';
 const Features: React.FC = () => {
   const [selectedFrequency, setSelectedFrequency] = useState('fortnightly');
   return (
-    <section className="md:py-20 bg-white">
+    <section className="md:py-20 bg-[#F9F9F9]">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 md:gap-[0px] gap-[40px] items-center mx-auto max-md:mt-5">
           <div className="flex justify-center">
