@@ -24,13 +24,17 @@ const Header: React.FC = () => {
             />
           </div>
 
-          <nav className="hidden md:flex items-center px-[30px]  ml-[70px] bg-[#6061F7]/[0.08] rounded-full h-[48px] ">
+          <nav className="hidden md:flex items-center px-[30px]  ml-[10px] bg-[#6061F7]/[0.08] rounded-full h-[48px] ">
             <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-2 rounded-full duration-200">
                 Home
               </a>
-            <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
-              Consumer
+              <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
+              About Us
             </a>
+            <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
+              Pricing
+            </a>
+            
             <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
             Employer
             </a>
