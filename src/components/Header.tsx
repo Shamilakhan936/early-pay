@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               Consumer
             </a>
             <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
-              Business
+            Employer
             </a>
             <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
               FAQs

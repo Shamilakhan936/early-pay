@@ -56,8 +56,8 @@ const Community: React.FC = () => {
   return (
     <section className="md:py-20 py-10 bg-[#F9F9F9]  mx-auto rounded-[20px] ">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 lg  md:gap-[0px] gap-[20px] items-center">
-        <div className="flex justify-center">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-[0px] gap-[20px] items-center">
+        <div className="flex justify-center order-2 lg:order-1">
             <div className="relative">
               <img 
                 src={phoneImage} 
@@ -142,7 +142,7 @@ const Community: React.FC = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="order-1 lg:order-2">
             <h2 className="md:text-[42px] text-[24px]  font-medium text-black max-w-[705px !important] md:leading-[57px] mb-[45px]">
               Break free from payday cycles.Tap into your earned wages anytime.
             </h2>
