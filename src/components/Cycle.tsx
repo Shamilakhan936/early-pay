@@ -56,7 +56,7 @@ const Community: React.FC = () => {
   return (
     <section className="md:py-20 py-10 bg-[#F9F9F9]  mx-auto rounded-[20px] ">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 lg  md:gap-[200px] gap-[20px] items-center">
+        <div className="grid lg:grid-cols-2 lg  md:gap-[0px] gap-[20px] items-center">
         <div className="flex justify-center">
             <div className="relative">
               <img 

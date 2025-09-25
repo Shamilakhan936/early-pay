@@ -10,8 +10,8 @@ const Features: React.FC = () => {
   return (
     <section className="md:py-20 bg-white">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 md:gap-[200px] gap-[40px] items-center max-md:mt-5">
-          <div className="relative">
+        <div className="grid lg:grid-cols-2 md:gap-[0px] gap-[40px] items-center mx-auto max-md:mt-5">
+          <div className="flex justify-center">
             <div className="relative">
               <img 
                 src={manImage} 
