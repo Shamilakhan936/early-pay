@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <div className="col-span-2 md:col-span-1">
             <img src={logo} alt="" className='w-[55px] h-[40px]' />
             <p className="text-[#7B899D] mt-[10px] text-[14px] leading-relaxed">
-            Access your earned wages instantly with transparent pricing and bank-level security.
+            Access your pay anytime fast, secure, and with no hidden fees.
             </p>
           </div>
 

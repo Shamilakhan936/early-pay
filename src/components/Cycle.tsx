@@ -67,32 +67,30 @@ const Community: React.FC = () => {
               
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
                 <div className="flex items-center justify-between w-full max-w-[200px] mb-10 md:mb-[70px]">
-                  <img src={backIcon} alt="Back icon" className="w-5 h-5 text-gray-600" />
-                  <h3 className="text-[16px] font-semibold text-black">Bills To Pay</h3>
+                  <img src={backIcon} alt="Back icon" className="w-5 h-5 text-gray-600 mt-2" />
+                  <h3 className="text-[16px] font-semibold text-black mt-2">Repayment Plan</h3>
                   <div></div>
                 </div>
 
-                <div className="bg-white rounded-[24px] w-[93%] py-7 px-6 shadow-lg max-w-[300px]">
+                <div className="bg-white rounded-[24px] w-[94%] py-4 px-6 shadow-lg max-w-[300px] mx-auto">
                   <div className="flex items-center justify-between mb-5">
-                    <div className="w-8 h-8 bg-[#6061F7] rounded-full flex items-center justify-center mr-3">
-                      <span className="text-white  text-lg">$</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <p className="text-black font-bold text-[16px]">Cashed out</p>
-                      <div className="flex items-center">
+                      <div className="flex items-center gap-2">
+                        <div className='w-6 h-6 bg-[#6061F7] rounded-full flex items-center justify-center z-10 relative'>
+                          <span className="text-white text-sm">$</span>
+                        </div>
+                        <p className="text-black font-bold text-[15px]">Cashed Out:</p>
                         <img src={doubleLineIcon} alt="Dollar" className="w-5 h-6" />
-                        <p className="text-black font-medium text-[14px] mt-1">2000</p>
+                        <p className="text-black font-medium text-[14px]">2000</p>
                       </div>
-                    </div>
                   </div>
 
                   <div className="mb-4">
-                    <h3 className="text-black font-medium text-lg mb-4">Your Repayments</h3>
+                    <h3 className="text-black font-medium text-lg mb-4">Repayment Schedule:</h3>
                     
                     <div className="relative">
                       
                       <div className="relative flex items-start gap-3  mb-5">
-                        <div className="w-4 h-4 bg-[#6061F7] rounded-full mt-1 flex items-center justify-center z-10 relative">
+                        <div className="w-4 h-4 bg-[#6061F7] rounded-full mt-2 flex items-center justify-center z-10 relative">
                         </div>
                         <div className=" flex-1">
                           <div className="flex items-center justify-between mb-1">
@@ -100,14 +98,14 @@ const Community: React.FC = () => {
                               <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
                               <span className="text-black font-bold text-base mt-1">1050</span>
                             </div>
-                            <span className="text-[#6061F7] text-base">Incl.5% fee</span>
+                            <span className="text-[#6061F7] text-[14px]">(Incl.5% fee)</span>
                           </div>
-                          <p className="text-black text-base">In 4 days - Mon 23, Sep</p>
+                          <p className="text-black text-[14px] ml-2"> Mon 23, Sep</p>
                         </div>
                       </div>
                       
                       <div className="relative flex items-start gap-3">
-                        <div className="w-4 h-4 bg-[#6061F7] rounded-full mt-1 flex items-center justify-center z-10 relative">
+                        <div className="w-4 h-4 bg-[#6061F7] rounded-full mt-2 flex items-center justify-center z-10 relative">
                          
                         </div>
                         <div className=" flex-1">
@@ -116,15 +114,15 @@ const Community: React.FC = () => {
                               <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
                               <span className="text-black font-bold text-sm mt-1">1050</span>
                             </div>
-                            <span className="text-[#6061F7] text-base">Incl.5% fee</span>
+                            <span className="text-[#6061F7] text-[14px]">(Incl.5% fee)</span>
                            
                           </div>
                           <div className="flex items-center gap-1">
 
-                          <p className="text-black text-base">Tue 31, Sep</p>
-                         <div>
+                          <p className="text-black text-[14px] ml-2">Tue 31, Sep</p>
+                         {/* <div>
                           <img src={infoIcon} alt="info icon" className="w-4 h-4" />
-                         </div>
+                         </div> */}
                           </div>
                         </div>
                       </div>
@@ -132,7 +130,7 @@ const Community: React.FC = () => {
                   </div>
 
                   <div className="flex justify-between items-center pt-4 bg-[#FAFAFA] rounded-[16px] p-4">
-                    <span className="text-black font-medium">Total</span>
+                    <span className="text-[18px] font-semibold">Total</span>
                     <div className="flex items-center">
                       <img src={doubleLineIcon} alt="Dollar" className="w-6 h-6" />
                       <span className="text-black font-bold text-lg mt-1">2100</span>
