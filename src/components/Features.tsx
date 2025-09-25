@@ -67,7 +67,7 @@ const Features: React.FC = () => {
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
                 <div className="text-center mb-14 md:mb-[105px]">
                   <h3 className="text-[16px] font-bold text-black">
-                    Repayment Plan
+                  Pay Cycle
                   </h3>
                 </div>
 
@@ -106,7 +106,7 @@ const Features: React.FC = () => {
                         <label className={`ml-3 font-medium cursor-pointer ${
                           selectedFrequency === 'monthly' ? 'text-white' : 'text-gray-700'
                         }`}>
-                          Monthly
+                          Weekly
                         </label>
                       </div>
                       
@@ -129,7 +129,7 @@ const Features: React.FC = () => {
                         <label className={`ml-3 font-medium cursor-pointer ${
                           selectedFrequency === 'fortnightly' ? 'text-white' : 'text-gray-700'
                         }`}>
-                          Fortnightly
+                          Bi-weekly 
                         </label>
                       </div>
                       
@@ -152,14 +152,14 @@ const Features: React.FC = () => {
                         <label className={`ml-3 font-medium cursor-pointer ${
                           selectedFrequency === 'weekly' ? 'text-white' : 'text-gray-700'
                         }`}>
-                          Weekly
+                           Monthly
                         </label>
                       </div>
                     </div>
                     
                       <div className="mt-4 flex items-center text-[11px] text-[#222222]">
                         <img src={planIcon} alt="Plan icon" className="mr-2 w-4 h-4" />
-                        <span>Billy detected a fortnight pay cycle</span>
+                        <span>Bill based on pay cycle</span>
                       </div>
                   </div>
                 </div>
