@@ -78,10 +78,10 @@ const Community: React.FC = () => {
                       <span className="text-white  text-lg">$</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <p className="text-black font-bold text-base">Cashed out</p>
+                      <p className="text-black font-bold text-[16px]">Cashed out</p>
                       <div className="flex items-center">
                         <img src={doubleLineIcon} alt="Dollar" className="w-5 h-6" />
-                        <p className="text-black font-medium text-lg mt-1">2000</p>
+                        <p className="text-black font-medium text-[14px] mt-1">2000</p>
                       </div>
                     </div>
                   </div>
