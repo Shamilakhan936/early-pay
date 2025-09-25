@@ -29,19 +29,19 @@ const Header: React.FC = () => {
                 Home
               </a>
               <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
-              About Us
-            </a>
-            <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
-              Pricing
-            </a>
-            <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
               Consumer
             </a>
             <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
             Employer
             </a>
             <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
-              FAQs
+            Pricing
+            </a>
+            <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
+            FAQ
+            </a>
+            <a href="#" className="text-[#102A53] text-[18px] hover:text-[#6061F7] font-medium px-4 my-5 rounded-full  duration-200">
+            About Us
             </a>
           </nav>
 

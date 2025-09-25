@@ -159,7 +159,7 @@ const Features: React.FC = () => {
                     
                       <div className="mt-4 flex items-center text-[11px] text-[#222222]">
                         <img src={planIcon} alt="Plan icon" className="mr-2 w-4 h-4" />
-                        <span>Bill based on pay cycle</span>
+                        <span>Salary based on pay cycle</span>
                       </div>
                   </div>
                 </div>
