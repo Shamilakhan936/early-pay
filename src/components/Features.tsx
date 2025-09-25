@@ -3,6 +3,7 @@ import manImage from '../assets/icons/man.png';
 import phoneImage from '../assets/icons/phone.png';
 import arrowManImage from '../assets/icons/arrowman.svg';
 import planIcon from '../assets/icons/planIcon.svg';
+import doubleLineIcon from '../assets/icons/double-line.svg';
 
 const Features: React.FC = () => {
   const [selectedFrequency, setSelectedFrequency] = useState('fortnightly');
@@ -30,7 +31,10 @@ const Features: React.FC = () => {
                   
                   <div>
                     <p className="md:text-[16px] text-[12px] font-normal text-[#B3B3B3]">Earned Wage</p>
-                    <p className="md:text-[18px] text-[14px] font-bold text-black">$2500</p>
+                    <div className="flex items-center">
+                      <img src={doubleLineIcon} alt="Dollar" className=" h-6" />
+                      <p className="md:text-[18px] text-[14px] font-bold text-black mt-1">2500</p>
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-center mt-[-10px] text-[#2AB22A] font-medium md:text-[16px] text-[12px]">
@@ -43,7 +47,10 @@ const Features: React.FC = () => {
                 </div>
                 <div className="mt-2 md:text-[16px] text-[12px] text-[#B3B3B3]">
                   <p>Fixed fee</p>
-                  <p className="font-medium text-black md:text-[14px] text-[12px]">$10.00</p>
+                  <div className="flex items-center">
+                    <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
+                    <p className="font-medium text-black md:text-[14px] text-[12px] mt-1">10.00</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -11,6 +11,7 @@ import insuranceIcon from '../assets/icons/insuranceIcon.svg';
 import rentIcon from '../assets/icons/rentIcon.svg';
 import internetIcon from '../assets/icons/internetIcon.svg';
 import infoIcon from '../assets/icons/information.svg';
+import doubleLineIcon from '../assets/icons/double-line.svg';
 interface BillItem {
   id: string;
   name: string;
@@ -78,7 +79,10 @@ const Community: React.FC = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <p className="text-black font-bold text-base">Cashed out</p>
-                      <p className="text-black font-medium text-lg">$2000</p>
+                      <div className="flex items-center">
+                        <img src={doubleLineIcon} alt="Dollar" className="w-5 h-6" />
+                        <p className="text-black font-medium text-lg mt-1">2000</p>
+                      </div>
                     </div>
                   </div>
 
@@ -92,7 +96,10 @@ const Community: React.FC = () => {
                         </div>
                         <div className=" flex-1">
                           <div className="flex items-center justify-between mb-1">
-                            <span className="text-black font-bold text-base">$1050</span>
+                            <div className="flex items-center">
+                              <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
+                              <span className="text-black font-bold text-base mt-1">1050</span>
+                            </div>
                             <span className="text-[#6061F7] text-base">Incl.5% fee</span>
                           </div>
                           <p className="text-black text-base">In 4 days - Mon 23, Sep</p>
@@ -105,7 +112,10 @@ const Community: React.FC = () => {
                         </div>
                         <div className=" flex-1">
                           <div className="flex items-center justify-between mb-1">
-                            <span className="text-black font-bold text-sm">$1050</span>
+                            <div className="flex items-center">
+                              <img src={doubleLineIcon} alt="Dollar" className="w-5 h-5" />
+                              <span className="text-black font-bold text-sm mt-1">1050</span>
+                            </div>
                             <span className="text-[#6061F7] text-base">Incl.5% fee</span>
                            
                           </div>
@@ -123,7 +133,10 @@ const Community: React.FC = () => {
 
                   <div className="flex justify-between items-center pt-4 bg-[#FAFAFA] rounded-[16px] p-4">
                     <span className="text-black font-medium">Total</span>
-                    <span className="text-black font-bold text-lg">$2100</span>
+                    <div className="flex items-center">
+                      <img src={doubleLineIcon} alt="Dollar" className="w-6 h-6" />
+                      <span className="text-black font-bold text-lg mt-1">2100</span>
+                    </div>
                   </div>
                 </div>
               </div>
