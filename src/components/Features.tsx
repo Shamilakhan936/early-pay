@@ -9,7 +9,7 @@ const Features: React.FC = () => {
   return (
     <section className="md:py-20 bg-white">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 md:gap-[200px] gap-[40px] items-center">
+        <div className="grid lg:grid-cols-2 md:gap-[200px] gap-[40px] items-center max-md:mt-5">
           <div className="relative">
             <div className="relative">
               <img 
@@ -25,7 +25,7 @@ const Features: React.FC = () => {
                   className="w-[150px] h-[150px]"
                 />
               </div>
-              <div className="absolute md:top-[6.5rem] top-[2rem]  md:w-[190px] w-[150px] md:left-[15.5rem] left-[11rem] bg-white rounded-xl p-4 shadow-lg max-w-xs">
+              <div className="absolute md:top-[6.5rem] top-[2rem]  md:w-[190px] w-[150px] md:left-[15.5rem] left-[8rem] bg-white rounded-xl p-4 shadow-lg max-w-xs">
                 <div className="flex items-center space-x-3 mb-3">
                   
                   <div>
@@ -58,7 +58,7 @@ const Features: React.FC = () => {
               />
               
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
-                <div className="text-center mb-[105px]">
+                <div className="text-center mb-14 md:mb-[105px]">
                   <h3 className="text-[16px] font-bold text-black">
                     Repayment Plan
                   </h3>

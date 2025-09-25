@@ -55,50 +55,8 @@ const Community: React.FC = () => {
   return (
     <section className="md:py-20 py-10 bg-[#F9F9F9]  mx-auto rounded-[20px] ">
       <div className="max-w-[1268px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 md:gap-[200px] gap-[20px] items-center">
-          <div>
-            <h2 className="md:text-[42px] text-[24px]  font-medium text-black max-w-[705px !important] md:leading-[57px] mb-[45px]">
-              Break free from payday cycles.Tap into your earned wages anytime.
-            </h2>
-            
-            <div className="space-y-6 md:mb-8">
-              <div className="flex items-start space-x-4">
-                <div className=" flex items-center justify-center flex-shrink-0 mt-1">
-                  <img src={instantIcon} alt="Instant access icon" className="w-[30px] h-[30px]" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-[18px] text-black mb-1">Instant Access</h3>
-                  <p className="text-black text-[18px]">Get your earned wages in minutes, not days</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                  <img src={likeIcon} alt="Security icon" className="w-[30px] h-[30px]" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-[18px] text-black mb-1">Bank - Level Security</h3>
-                  <p className="text-[18px] text-black">Your data is protected with enterprise-grade encryption</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className=" flex items-center justify-center flex-shrink-0 mt-1">
-                  <img src={moneyIcon} alt="Money icon" className="w-[30px] h-[30px]" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-[18px] text-black mb-1">No Hidden Fees</h3>
-                  <p className="text-[18px] text-black">Transparent pricing with no surprise charges</p>
-                </div>
-              </div>
-            </div>
-            
-            <button className="bg-[#6061F7] text-white px-8 py-3 rounded-[20px] md:mt-[45px] mt-[20px] font-bold text-[20px] transition-colors">
-              Get Started
-            </button>
-          </div>
-
-          <div className="flex justify-center">
+        <div className="grid lg:grid-cols-2 lg  md:gap-[200px] gap-[20px] items-center">
+        <div className="flex justify-center">
             <div className="relative">
               <img 
                 src={phoneImage} 
@@ -107,7 +65,7 @@ const Community: React.FC = () => {
               />
               
               <div className="absolute inset-0 flex flex-col items-center pt-16 px-6">
-                <div className="flex items-center justify-between w-full max-w-[200px] mb-[70px]">
+                <div className="flex items-center justify-between w-full max-w-[200px] mb-10 md:mb-[70px]">
                   <img src={backIcon} alt="Back icon" className="w-5 h-5 text-gray-600" />
                   <h3 className="text-[16px] font-semibold text-black">Bills To Pay</h3>
                   <div></div>
@@ -171,6 +129,48 @@ const Community: React.FC = () => {
               </div>
             </div>
           </div>
+          <div>
+            <h2 className="md:text-[42px] text-[24px]  font-medium text-black max-w-[705px !important] md:leading-[57px] mb-[45px]">
+              Break free from payday cycles.Tap into your earned wages anytime.
+            </h2>
+            
+            <div className="space-y-6 md:mb-8">
+              <div className="flex items-start space-x-4">
+                <div className=" flex items-center justify-center flex-shrink-0 mt-1">
+                  <img src={instantIcon} alt="Instant access icon" className="w-[30px] h-[30px]" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-[18px] text-black mb-1">Instant Access</h3>
+                  <p className="text-black text-[18px]">Get your earned wages in minutes, not days</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <img src={likeIcon} alt="Security icon" className="w-[30px] h-[30px]" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-[18px] text-black mb-1">Bank - Level Security</h3>
+                  <p className="text-[18px] text-black">Your data is protected with enterprise-grade encryption</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className=" flex items-center justify-center flex-shrink-0 mt-1">
+                  <img src={moneyIcon} alt="Money icon" className="w-[30px] h-[30px]" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-[18px] text-black mb-1">No Hidden Fees</h3>
+                  <p className="text-[18px] text-black">Transparent pricing with no surprise charges</p>
+                </div>
+              </div>
+            </div>
+            
+            <button className="bg-[#6061F7] text-white px-8 py-3 rounded-[20px] md:mt-[45px] mt-[20px] font-bold text-[20px] transition-colors">
+              Get Started
+            </button>
+          </div>
+
         </div>
       </div>
     </section>
