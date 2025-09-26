@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
             Payday with EarlyPay
           </h1>
           
-          <p className="text-[14px] md:mb-12 mb-4 leading-[24px] text-normal max-w-[448px] mx-auto">
+          <p className="text-[12px] md:mb-12 mb-4 leading-[24px]  text-normal font-poppins max-w-[448px] mx-auto">
           Get up to $5000 of your earned wages instantly. No hidden fees, no interest.
           </p>
 
