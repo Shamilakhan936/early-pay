@@ -45,7 +45,7 @@ const HowItWorks: React.FC = () => {
             How it Works
           </h2>
           <p className="text-[18px] text-black  mx-auto leading-[28px]">
-            Built for Real Life. Trusted in Every Transaction. Your money, your terms, no friction, just precision.
+          Get paid for the work you’ve done, anytime. Simply request your earned wages and have them in your account immediately.
           </p>
         </div>
 
